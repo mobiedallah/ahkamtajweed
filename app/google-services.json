@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785191097634",
+    "firebase_url": "https://ahkam-al-tajweed.firebaseio.com",
+    "project_id": "ahkam-al-tajweed",
+    "storage_bucket": "ahkam-al-tajweed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785191097634:android:43e718cbe88a660560817b",
+        "android_client_info": {
+          "package_name": "com.mohammadobiedallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785191097634-ngneai5k68andl7vh050docv9kec13a5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mohammadobiedallah",
+            "certificate_hash": "c43bbbf5048de31b8892aeb8830735bcecc06e34"
+          }
+        },
+        {
+          "client_id": "785191097634-mu4qvh51ccdk88olpud3svi675ggd8hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEewkU3ZGOP7Q4NYt_cIC1vXeJf90LaZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785191097634-mu4qvh51ccdk88olpud3svi675ggd8hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
