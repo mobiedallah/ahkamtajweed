@@ -19,9 +19,9 @@ Button reg,login;
         password=(EditText)findViewById(R.id.pass);
     }
    public void bureg2(View view) {
-        Intent my =new Intent(MainActivity.this,expertreg.class
-        );
-        startActivity(my);
+       // Intent my =new Intent(MainActivity.this,expertreg.class
+       // );
+       // startActivity(my);
     }
     public void bureg1(View view) {
         Intent my =new Intent(MainActivity.this,userReg.class
@@ -32,9 +32,9 @@ Button reg,login;
 
     public void buLogin(View view) {
 
-        String url="http://10.0.2.2/~hussienalrubaye/phpAndroid/login.php?UserName="+  user.getText().toString()+"&Password="+ etPassword.getText().toString();
+      //  String url="http://10.0.2.2/~hussienalrubaye/phpAndroid/login.php?UserName="+  user.getText().toString()+"&Password="+ etPassword.getText().toString();
 
-        new MyAsyncTaskgetNews().execute(url);
+      //  new MyAsyncTaskgetNews().execute(url);
     }
 
 }

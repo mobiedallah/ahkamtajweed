@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".maad">
 
@@ -20,47 +21,80 @@
         android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="135dp" />
+        android:onClick="smail"
+        android:text="مد اصلة الصغرى"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="151dp" />
 
     <Button
         android:id="@+id/button19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="225dp" />
+        android:onClick="awed"
+        android:text="مد العوض "
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="165dp" />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:onClick="monfasel"
+        android:text="مد المنفصل"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="281dp" />
 
     <Button
         android:id="@+id/button21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="448dp" />
+        android:onClick="kbra"
+        android:text="مد الصلة الكبرى"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="372dp" />
 
     <Button
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="548dp" />
+        android:onClick="badal"
+        android:text="مد البدل"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="357dp" />
 
     <Button
         android:id="@+id/button23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="670dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:onClick="lazem"
+        android:text="المد الازم"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ared"
+        android:text="مد عارض للسكون"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="motasel"
+        android:text="مد المتصل"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="رجوع"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="663dp" />
+</LinearLayout>

@@ -31,8 +31,8 @@ public class Interface extends AppCompatActivity {
     }
 
 
-    public void other(View view) {
-        Intent my = new Intent(this, other.class);
+    public void decLatter(View view) {
+        Intent my = new Intent(this, decLatter.class);
         startActivity(my);
     }
 }

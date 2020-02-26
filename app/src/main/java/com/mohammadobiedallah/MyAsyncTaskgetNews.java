@@ -58,8 +58,8 @@ public class MyAsyncTaskgetNews {
             try {
                 //JSONObject json= new JSONObject(progress[0]);
                 //display response data
-                Toast.makeText(getApplicationContext(),
-                        progress[0],Toast.LENGTH_LONG).show();
+               // Toast.makeText(getApplicationContext(),
+                    //    progress[0],Toast.LENGTH_LONG).show();
 
             } catch (Exception ex) {
             }

@@ -1,19 +1,19 @@
 package com.mohammadobiedallah;
-import org.ksoap2.SoapEnvelope;
+// import org.ksoap2.SoapEnvelope;
 
-import org.ksoap2.serialization.PropertyInfo;
+//import org.ksoap2.serialization.PropertyInfo;
 
-import org.ksoap2.serialization.SoapObject;
+//import org.ksoap2.serialization.SoapObject;
 
-import org.ksoap2.serialization.SoapPrimitive;
+//import org.ksoap2.serialization.SoapPrimitive;
 
-import org.ksoap2.serialization.SoapSerializationEnvelope;
+//import org.ksoap2.serialization.SoapSerializationEnvelope;
 
-import org.ksoap2.transport.HttpTransportSE;
+//import org.ksoap2.transport.HttpTransportSE;
 
 
 
-public class WebService {
+class WebService {
 
     //Namespace of the Webservice - can be found in WSDL
 
@@ -34,56 +34,56 @@ public class WebService {
 
         // Create request
 
-        SoapObject request = new SoapObject(NAMESPACE, webMethName);
+      //  SoapObject request = new SoapObject(NAMESPACE, webMethName);
 
         // Property which holds input parameters
 
-        PropertyInfo sayHelloPI = new PropertyInfo();
+    //    PropertyInfo sayHelloPI = new PropertyInfo();
 
         // Set Name
 
-        sayHelloPI.setName("name");
+        //sayHelloPI.setName("name");
 
         // Set Value
 
-        sayHelloPI.setValue(name);
+      //  sayHelloPI.setValue(name);
 
         // Set dataType
 
-        sayHelloPI.setType(String.class);
+       // sayHelloPI.setType(String.class);
 
         // Add the property to request object
 
-        request.addProperty(sayHelloPI);
+     //   request.addProperty(sayHelloPI);
 
         // Create envelope
 
-        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
+      //  SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
 
-                SoapEnvelope.VER11);
+                //SoapEnvelope.VER11);
 
         // Set output SOAP object
 
-        envelope.setOutputSoapObject(request);
+      //  envelope.setOutputSoapObject(request);
 
         // Create HTTP call object
 
-        HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
+    //    HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
 
 
         try {
 
             // Invoke web service
 
-            androidHttpTransport.call(SOAP_ACTION + webMethName, envelope);
+          //  androidHttpTransport.call(SOAP_ACTION + webMethName, envelope);
 
             // Get the response
 
-            SoapPrimitive response = (SoapPrimitive) envelope.getResponse();
+           // SoapPrimitive response = (SoapPrimitive) envelope.getResponse();
 
             // Assign it to resTxt variable static variable
 
-            resTxt = response.toString();
+       //     resTxt = response.toString();
 
 
         } catch (Exception e) {

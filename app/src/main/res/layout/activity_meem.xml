@@ -18,7 +18,8 @@
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="adgam"
+        android:text="ادغام"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="198dp" />
 
@@ -26,7 +27,8 @@
         android:id="@+id/button15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="khfa"
+        android:text="اخفاء"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="310dp" />
 
@@ -34,7 +36,8 @@
         android:id="@+id/button16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="adhar"
+        android:text="اظهار"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="453dp" />
 
@@ -42,7 +45,8 @@
         android:id="@+id/button17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="575dp" />
+        android:onClick="back"
+        android:text="رجوع"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="651dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
