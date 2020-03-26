@@ -4,24 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".meem">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="286dp"
-        android:layout_height="90dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="48dp" />
+    tools:context=".meem"
+    android:background="@drawable/meem">
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="183dp"
         android:onClick="adgam"
         android:text="ادغام"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="198dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button15"
@@ -29,8 +22,8 @@
         android:layout_height="wrap_content"
         android:onClick="khfa"
         android:text="اخفاء"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="310dp" />
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="67dp" />
 
     <Button
         android:id="@+id/button16"
@@ -38,8 +31,8 @@
         android:layout_height="wrap_content"
         android:onClick="adhar"
         android:text="اظهار"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="453dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="282dp" />
 
     <Button
         android:id="@+id/button17"

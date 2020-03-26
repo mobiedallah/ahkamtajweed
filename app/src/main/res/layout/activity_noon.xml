@@ -4,17 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".noon">
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="330dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="15dp" />
+    tools:context=".noon"
+    android:background="@drawable/non">
 
     <Button
         android:id="@+id/button"
@@ -23,17 +14,18 @@
         android:layout_height="54dp"
         android:onClick="adgam1"
         android:text="ادغام بغنة"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="145dp" />
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="252dp" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="143dp"
-        android:layout_height="43dp"
+        android:layout_width="105dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="72dp"
         android:onClick="adgam2"
         android:text="ادغام  بدون غنة"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="238dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="216dp" />
 
     <Button
         android:id="@+id/button10"
@@ -41,8 +33,8 @@
         android:layout_height="46dp"
         android:onClick="klab"
         android:text="اقلاب"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="384dp" />
 
     <Button
         android:id="@+id/button11"
@@ -50,8 +42,8 @@
         android:layout_height="48dp"
         android:onClick="khfa"
         android:text="اخفاء"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="438dp" />
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="382dp" />
 
     <Button
         android:id="@+id/button12"
@@ -59,8 +51,8 @@
         android:layout_height="58dp"
         android:onClick="adhar"
         android:text="اظهار"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="538dp" />
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="461dp" />
 
     <Button
         android:id="@+id/button13"

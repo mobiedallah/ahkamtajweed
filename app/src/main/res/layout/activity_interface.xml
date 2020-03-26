@@ -6,59 +6,68 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".Interface">
+    tools:context=".Interface"
+    android:background="@drawable/start"
+    >
 
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="169dp"
-        android:layout_height="76dp"
-
+        android:layout_width="79dp"
+        android:layout_height="106dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="113dp"
         android:onClick="gomd"
-        android:text="المد" />
+        android:text="احكام المد "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-
+        android:layout_width="79dp"
+        android:layout_height="106dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="204dp"
-        android:layout_marginBottom="158dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="135dp"
         android:onClick="gomem"
-        android:text="ميم" />
+        android:text="احكام الميم الساكنة"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="146dp"
-        android:layout_height="wrap_content"
-
-
+        android:layout_width="79dp"
+        android:layout_height="106dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="53dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="164dp"
         android:onClick="gonon"
-        android:text="نون " />
+        android:text="احكام النون الساكنة "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:backgroundTint="#00E44574" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="175dp"
-        android:layout_height="wrap_content"
+        android:layout_width="79dp"
+        android:layout_height="106dp"
         android:layout_alignParentStart="true"
-
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="41dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="195dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="322dp"
+        android:layout_marginBottom="81dp"
         android:onClick="decLatter"
-        android:text="صفات الحروف" />
+        android:text="صفات الحروف"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF" />
 
 </RelativeLayout>

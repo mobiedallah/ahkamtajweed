@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".maad">
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="36dp" />
+    tools:context=".maad"
+    android:background="@drawable/mad">
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="559dp"
         android:onClick="smail"
         android:text="مد اصلة الصغرى"
+        android:textSize="18dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="151dp" />
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="654dp"
         android:onClick="awed"
         android:text="مد العوض "
         tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="165dp" />
+        tools:layout_editor_absoluteY="165dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="502dp"
         android:onClick="monfasel"
         android:text="مد المنفصل"
+        android:textSize="18dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="235dp"
         tools:layout_editor_absoluteY="281dp" />
 
@@ -48,26 +59,46 @@
         android:id="@+id/button21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="438dp"
         android:onClick="kbra"
         android:text="مد الصلة الكبرى"
         tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="372dp" />
+        tools:layout_editor_absoluteY="372dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="305dp"
         android:onClick="badal"
         android:text="مد البدل"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteY="357dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/button23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="210dp"
         android:onClick="lazem"
         android:text="المد الازم"
+        android:textSize="18dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="527dp" />
 
@@ -75,8 +106,14 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="161dp"
         android:onClick="ared"
         android:text="مد عارض للسكون"
+        android:textSize="18dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="510dp" />
 
@@ -84,8 +121,14 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="318dp"
         android:onClick="motasel"
         android:text="مد المتصل"
+        android:textSize="18dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="263dp" />
 
@@ -93,8 +136,16 @@
         android:id="@+id/button25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
         android:onClick="back"
         android:text="رجوع"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="663dp" />
-</LinearLayout>
+        tools:layout_editor_absoluteY="663dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout >
