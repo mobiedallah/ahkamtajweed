@@ -15,12 +15,13 @@
         android:layout_height="72dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="291dp"
-        android:layout_marginBottom="559dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="299dp"
         android:onClick="smail"
         android:text="مد اصلة الصغرى"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="151dp" />
 
@@ -46,12 +47,13 @@
         android:layout_height="57dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="502dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="393dp"
         android:onClick="monfasel"
         android:text="مد المنفصل"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
         tools:layout_editor_absoluteX="235dp"
         tools:layout_editor_absoluteY="281dp" />
 
@@ -61,15 +63,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="268dp"
-        android:layout_marginBottom="438dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="429dp"
         android:onClick="kbra"
         android:text="مد الصلة الكبرى"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="372dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        />
+        app:backgroundTint="#00FFFFFF"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="372dp" />
 
     <Button
         android:id="@+id/button22"
@@ -77,15 +79,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="78dp"
-        android:layout_marginBottom="305dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="252dp"
         android:onClick="badal"
         android:text="مد البدل"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="357dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        />
+        app:backgroundTint="#00FFFFFF"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="357dp" />
 
     <Button
         android:id="@+id/button23"
@@ -93,12 +95,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="210dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="141dp"
         android:onClick="lazem"
         android:text="المد الازم"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
         tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="527dp" />
 
@@ -108,12 +111,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="239dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="24dp"
         android:onClick="ared"
         android:text="مد عارض للسكون"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="510dp" />
 
@@ -123,12 +127,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="304dp"
-        android:layout_marginBottom="318dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="63dp"
         android:onClick="motasel"
         android:text="مد المتصل"
         android:textSize="18dp"
         android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="263dp" />
 
@@ -138,14 +143,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="2dp"
         android:onClick="back"
         android:text="رجوع"
-        tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="663dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        />
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="663dp" />
 
 </RelativeLayout >
