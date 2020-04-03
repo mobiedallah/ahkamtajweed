@@ -17,21 +17,21 @@
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="228dp" />
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="207dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="108dp"
         android:layout_height="78dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="68dp"
         android:onClick="adgam2"
         android:text="ادغام  بدون غنة"
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="325dp" />
+        tools:layout_editor_absoluteY="348dp" />
 
     <Button
         android:id="@+id/button10"
@@ -42,8 +42,8 @@
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="380dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="419dp" />
 
     <Button
         android:id="@+id/button11"
@@ -54,8 +54,8 @@
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="484dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="524dp" />
 
     <Button
         android:id="@+id/button12"
@@ -66,8 +66,8 @@
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="258dp" />
 
     <Button
         android:id="@+id/button13"
