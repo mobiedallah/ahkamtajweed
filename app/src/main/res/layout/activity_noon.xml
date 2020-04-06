@@ -9,16 +9,16 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="120dp"
+        android:layout_width="111dp"
 
-        android:layout_height="51dp"
+        android:layout_height="78dp"
         android:onClick="adgam1"
         android:text="ادغام بغنة"
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="207dp" />
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="197dp" />
 
     <Button
         android:id="@+id/button8"
@@ -35,15 +35,15 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="113dp"
-        android:layout_height="46dp"
+        android:layout_width="126dp"
+        android:layout_height="72dp"
         android:onClick="klab"
         android:text="اقلاب"
         android:textSize="18dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="414dp" />
 
     <Button
         android:id="@+id/button11"
@@ -59,8 +59,8 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="109dp"
-        android:layout_height="58dp"
+        android:layout_width="119dp"
+        android:layout_height="67dp"
         android:onClick="adhar"
         android:text="اظهار"
         android:textSize="18dp"
@@ -71,10 +71,11 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="71dp"
+        android:layout_height="43dp"
         android:onClick="back"
         android:text="رجوع"
+        app:backgroundTint="#051805"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="595dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

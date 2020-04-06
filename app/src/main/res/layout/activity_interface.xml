@@ -11,63 +11,150 @@
     >
 
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="271dp"
-        android:layout_height="77dp"
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="68dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="71dp"
-        android:layout_marginBottom="173dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="282dp"
+        android:src="@drawable/madimg" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="213dp"
         android:onClick="gomd"
         android:text="احكام المد "
         android:textSize="20dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="271dp"
-        android:layout_height="77dp"
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="63dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="302dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="467dp"
+        android:src="@drawable/meemimg" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="394dp"
         android:onClick="gomem"
         android:text=" احكام الميم الساكنة والتنوين"
         android:textSize="20dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="271dp"
-        android:layout_height="77dp"
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="429dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="459dp"
+        android:src="@drawable/nonimg" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="390dp"
         android:onClick="gonon"
         android:text="احكام النون الساكنة والتنوين "
         android:textSize="20dp"
         android:textStyle="bold"
         app:backgroundTint="#00E44574" />
 
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="292dp"
+        android:src="@drawable/sefat" />
+
     <Button
         android:id="@+id/button9"
-        android:layout_width="271dp"
-        android:layout_height="68dp"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="75dp"
+        android:layout_marginStart="229dp"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="217dp"
         android:onClick="decLatter"
         android:text="صفات الحروف"
         android:textSize="20dp"
         android:textStyle="bold"
         app:backgroundTint="#00FFFFFF" />
 
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="123dp"
+        android:src="@drawable/sitting" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="51dp"
+        android:text="الاعدادات"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="111dp"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="37dp"
+        android:text="اختبر نفسك"
+        android:textColor="#FAFAFA"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
 </RelativeLayout>
+
